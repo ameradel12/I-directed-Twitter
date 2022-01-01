@@ -1,0 +1,250 @@
+body{
+    background-color: #e6ecf0;
+    margin: 0px;
+}
+
+.beg{
+    max-width: 1190px;
+    margin: 56px auto;
+}
+
+.bar{
+    background-color: white;
+    width: 100%;
+    height: 42px ;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    float: left;
+}
+.bar-right{
+    text-align: center;
+    color: white;
+    background-color: #1da1f2 ;
+    border-radius: 13px;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    left: 75%;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+.bar-left-2,
+.bar-left-1,
+.bar-left-3,
+.bar-left-4{
+    opacity: .7;
+    padding: 0px 10px 10px 0px;
+    position: absolute;
+    top: -4px;
+    font-size: 15px;
+    float: left;
+}
+.bar-left-1{
+    left: 17.5% ;
+    text-decoration: none ;
+}
+.bar-left-2{
+    position: absolute;
+    bottom: -3px;
+    left: 24% ;
+}
+.bar-left-3{
+    left: 31.5% ;
+}
+.bar-left-4{
+    position: absolute;
+    left: 39.9% ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    opacity: .9 ;
+}
+
+a :hover{
+    color: #1da1f2;
+    border-bottom: 2px #1da1f2 solid ;
+}
+
+.bar-left img{
+    position: absolute;
+    top: 6px;
+    left: 50%;
+}
+
+
+
+.div-right{
+    background-color: white ;
+    width: 250px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+    position: relative;
+    left: 825px ;
+}
+
+hr{
+    opacity: .4 ;
+}
+
+.botton-1{
+    cursor: pointer;
+    width: 80px;
+    border-radius: 13px 13px 13px 13px;
+    border-color: #1da1f2 ;
+    background-color: transparent;
+    color: #1da1f2 ;
+    position: absolute;
+    top: 88px;
+    left: 70px;
+}
+
+.div-right img,
+.twet img{
+    vertical-align: top;
+    border-radius: 50%;
+}
+
+.botton-2{
+    cursor: pointer;
+    width: 80px;
+    border-radius: 13px 13px 13px 13px;
+    border-color: #1da1f2 ;
+    background-color: transparent;
+    color: #1da1f2 ;
+    position: absolute;
+    bottom: 9px;
+    left: 70px;
+}
+
+.twet{
+    
+    width: 500px;
+    height: 380px;
+    background-color: white;
+    position: relative;
+    left: 310px;
+    bottom: 218px;
+}
+.twet-1 pre{
+    position: absolute;
+    top: 15px;
+    left: -31px;
+}
+.twet-1 p{
+    margin-bottom: 0px;
+    padding-top: 5px ;
+}
+
+.twet-2 pre{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 215px;
+    left: -31px;
+}
+
+.twet-3 pre{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 120px;
+    left: -31px;
+}
+
+.twet-4 pre{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 23px;
+    left: -31px;
+}
+
+.twet-2 p,
+.twet-3 p,
+.twet-4 p{
+    margin-bottom: 0px;
+}
+
+.profile-1 small,
+.profile-2 small,
+.twet-1 small,
+.twet-2 small,
+.twet-3 small,
+.twet-4 small{
+    opacity: 0.7;
+}
+
+/* جزء الملف الشخصي ع الشمال */
+
+.my-profile{
+    position: relative;
+}
+
+.square-1,
+.square-2,
+.square-3{
+    width: 250px;
+    height: 83.33px;
+    position: absolute;
+    left: 46px;
+}
+
+
+.square-1{
+    bottom: 514.5px;
+    background-color: black;
+    color: white;
+    text-align: center ;
+    z-index: 10;
+    padding-top: px;
+    letter-spacing: 1px;
+    font-family: 'Pushster', cursive;
+}
+.square-2{
+    background-color: white;
+    height: 75px;
+    z-index: 11;
+    bottom: 465px;
+}
+
+.text-my-profile {
+    margin-top: 6px;
+    text-indent: 60px;
+    font-size: 1.2em;
+}
+.text-my-profile small{
+    opacity: 0.8; 
+    text-indent: 60px;
+    padding-left: 55px;
+}
+.square-2 img{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    bottom: 40px;
+    padding-left: 5px;
+}
+.square-3{
+    background-color: white;
+    height: 85px;
+    bottom: 396px;
+    z-index: 20;
+    word-spacing: 18px;
+    text-indent: 10px;
+}
+.square-3-p-2{
+    color: #1da1f2 ;
+    word-spacing: 60px;
+    text-indent: 25px;
+    font-size: 1.09em;
+}
