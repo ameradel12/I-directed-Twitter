@@ -248,3 +248,24 @@ hr{
     text-indent: 25px;
     font-size: 1.09em;
 }
+
+
+
+@media (max-width: 1210px) {
+    .bar-left-2{
+        top: 2px;
+        font-size: 0.8em ;
+    }
+    .bar-left-1{
+        top: 2px;
+        font-size: 0.8em ;
+    }
+    .bar-left-3{
+        top: 2px;
+        font-size: 0.8em ;
+    }
+    .bar-left-4{
+        top: 2px;
+        font-size: 0.8em ;
+    }
+}
