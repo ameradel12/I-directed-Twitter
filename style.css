@@ -237,7 +237,7 @@ hr{
 .square-3{
     background-color: white;
     height: 85px;
-    bottom: 396px;
+    bottom: 400px;
     z-index: 20;
     word-spacing: 18px;
     text-indent: 10px;
@@ -254,18 +254,21 @@ hr{
 @media (max-width: 1210px) {
     .bar-left-2{
         top: 2px;
-        font-size: 0.8em ;
+        font-size: 0.7em ;
     }
     .bar-left-1{
         top: 2px;
-        font-size: 0.8em ;
+        font-size: 0.7em ;
     }
     .bar-left-3{
         top: 2px;
-        font-size: 0.8em ;
+        font-size: 0.7em ;
     }
     .bar-left-4{
         top: 2px;
-        font-size: 0.8em ;
+        font-size: 0.7em ;
+    }
+    .square-3{
+        word-spacing: 15px;
     }
 }
